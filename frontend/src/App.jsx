@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { Film, Search, UserRound, LogOut, Ticket, ShieldCheck, X, CalendarDays, Clock3, Star, Plus, Trash2, Popcorn, Clapperboard } from "lucide-react";
 
-const API = "http://localhost:5000/api";
+const API = "https://imovies-ern-1.onrender.com";
 const fallbackPoster = "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=600&q=80";
 
 function App() {
